@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #162657;
+}
+
+/*========================header starts========================*/
+.menu{
+    border: 1px solid rgba(143, 141, 141, 0.8);
+}
+header{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px 0;
+}
+.image{
+    float: left;
+    width: 20%;
+}
+img{
+    width: 30%;
+}
+nav{
+    float: right;
+    width: 80%;
+    font-size: 20px;
+    text-align: right;
+    margin: 28px 0;
+}
+li{
+display: inline-block;
+text-decoration: none;
+margin-left: 20px;
+text-transform: capitalize;
+}
+a{
+text-decoration: none;
+}
+
+/*=============header ends===================*/
+
+
+/*=============hero part starts===================*/
+
+.hero{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.hero-text{
+    padding: 20px 0;
+}
+.hero-text h1{
+    width: 55%;
+    font-size: 35px;
+    margin: auto;
+}
+.hero-text h1 span{
+    color: #0D89FB;
+}
+.hero-text p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.hero-banner img{
+    width: 50%;
+}
+
+/*===============hero main content starts=========================*/
+.hero .hero-main-content{
+    overflow: hidden;
+    margin: 40px 0;
+}
+.hero .hero-main-content .content-left{
+    float: left;
+    width: 49%;
+    text-align: right;
+}
+.hero .hero-main-content .content-left h2{
+    color: #F0566E;
+    font-size: 36px;
+}
+.hero .hero-main-content .content-left p{
+    font-size: 12px;
+}
+.hero .hero-main-content .content-right{
+    float: right;
+    width: 49%;
+}
+.hero .hero-main-content .content-right h2{
+    font-size: 36px;
+    text-align: left;
+    width: 67%;
+}
+
+
+/*===============hero main content ends=========================*/
+/*================================================================*/
+/*=============hero part ends===================*/
+
+/*========================main content starts================*/
+.main-content{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.main-content div{
+    float: left;
+    width: 29%;
+    padding: 30px 20px ;
+    margin-left: 20px;
+}
+.main-content div:first-child{
+    margin-left: 0;
+}
+figure{
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+figcaption{
+    text-align: left;
+}
+h3{
+    padding-top: 10px;
+}
+p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.main-content-left{
+    background-color: #FEEBED;
+}
+.main-content-center{
+    background-color: #EAF9F4;
+}
+.main-content-right{
+    background-color: #FEF6E7;
+}
+/*========================main content ends================*/
+/*===============footer starts=========================*/
+footer{
+    background-color: #008AFF;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p{
+    color: #B5F7FC;
+}
+footer p span{
+    font-weight: bold;
+    color: #B5F7FC;
+}
+/*===============footer ends=========================*/
